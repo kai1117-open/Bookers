@@ -1,0 +1,68 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+table{
+display: table;
+}
+
+th,td{
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+th{
+  font-weight: bold;
+
+}
+
+.title{
+  max-width: 200px;
+  min-width: 200px;
+}
+.body{
+  max-width: 400px;
+  min-width: 400px;
+}
+
+.cell-title{
+  max-width: 200px;
+  min-width: 200px;
+  overflow: hidden;
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+}
+
+.cell-body{
+  max-width: 400px;
+  min-width: 400px;
+  overflow: hidden;
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.book_title{
+  width: 169px;
+  height: 15px;
+}
+
+.book_body{
+  width: 157px;
+  height: 28px;
+}
+
+div.actions{
+  margin-bottom: 10px;
+}
